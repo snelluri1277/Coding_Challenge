@@ -13,9 +13,6 @@ def bubble_sort(mylist):
        else:
           print(str(i) + ",", end='')
 
-
-
-
 if __name__=="__main__":
     a=[10,5,100,67,12, 8,1,25,35]
     print("length of list :" + "10" )
