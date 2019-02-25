@@ -1,0 +1,22 @@
+def bubble_sort(mylist):
+   print("this is bubble sort program")
+   for passnum in range(len(mylist) - 1, 0, -1):
+       for i in range(passnum):
+           if mylist[i] > mylist[i + 1]:
+               temp = mylist[i]
+               mylist[i] = mylist[i + 1]
+               mylist[i + 1] = temp
+   for i in mylist:
+       if i==mylist[len(mylist)-1]:
+          print(str(i) + ",", end='')
+          print(str(i))
+       else:
+          print(str(i) + ",", end='')
+
+
+
+
+if __name__=="__main__":
+    a=[10,5,100,67,12, 8,1,25,35]
+    print("length of list :" + "10" )
+    bubble_sort(a)
