@@ -6,14 +6,14 @@ def bubble_sort(mylist):
                temp = mylist[i]
                mylist[i] = mylist[i + 1]
                mylist[i + 1] = temp
-   for i in mylist:
-       if i==mylist[len(mylist)-1]:
-          print(str(i) + ",", end='')
-          print(str(i))
-       else:
-          print(str(i) + ",", end='')
+   print(mylist)
+
 
 if __name__=="__main__":
     a=[10,5,100,67,12, 8,1,25,35]
     print("length of list :" + "10" )
+    print("Before Sort")
+    print(a)
     bubble_sort(a)
+
+bubble_sort([12,1,45,3,48,234,2])
